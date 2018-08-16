@@ -7,3 +7,5 @@
 ၃) arm ကို camera က နေကြည့်ဖို့ image_view node <br>
 ၄) slider တွေရဲ့ label value တွေကိုကြည့်ပီး သက်ဆိုင်ရာ parameter များကို set လုပ်ပေးတဲ့ GUI ပါတဲ့ arm_controller.py <br>
 ၅) parameter တွေကိုဖတ်ပီး joint command တွေကိုထုတ်ပေးနေတဲ့ publisher.cpp <br>
+
+(see ROS MYANMAR YOUTUBE URL-<a href="https://www.youtube.com/watch?v=cQA0L8LH3_M&list=PLW0xjGvRlZE45PsrZTfz8HqRfZinnxvIX&index=2">HERE</a>)
