@@ -1,0 +1,10 @@
+<launch>
+	<arg name="image" default="/camera/rgb/image_raw" />
+
+	<include file="$(find astra_launch)/launch/astra.launch"/>
+	<include file="$(find turtlebot_arm_controller)/launch/controller.launch"/>
+
+	<node pkg="image_view" type="image_view" name="viewer_1" args="image:=$(arg image)"/>
+	<node pkg="turtlebot_arm_gui" type="publisher.py" name="js_publisher"/>
+	<node pkg="turtlebot_arm_gui" type="arm_controller.py" name="arm_controller_viewer"/>
+</launch>
